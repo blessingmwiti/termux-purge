@@ -1,0 +1,5 @@
+#!/usr/bin/sh
+echo "Enter name of package to be uninstalled!"
+read pkg
+apt purge $pkg --yes && apt autoremove
+echo "$pkg removed successfully!"
