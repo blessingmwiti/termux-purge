@@ -11,13 +11,13 @@ Give permission by typing chmod +x install.sh
 
 Run the script by typing ./install.sh
 
-This will copy the purge script file to Termux PATH 
+This will copy the purgex script file to Termux PATH 
 
-Now just type purge anywhere on the screen.
+Now just type purgex anywhere on the screen.
 
 Usage.
 
-Type purge 
+Type purgex 
 
 Enter name of the installed package to be removed eg; figlet 
 
@@ -27,8 +27,8 @@ A successful message will be printed out.
 
 Uninstall.
 
-To uninstall purge script from Termux PATH. Do 
+To uninstall purgex script from Termux PATH. Do 
 
-Type chmod +x uninstall.sh 
+Type ./uninstall.sh 
 
-The purge script will be removed!
+The purgex script will be removed!
